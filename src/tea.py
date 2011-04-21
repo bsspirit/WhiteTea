@@ -15,6 +15,10 @@ app.secret_key = 'A0Zr31j/3yX R~XHH!jmN]LWX/,?RT'
 @app.route('/')
 def index():
 	return render_template('index.html')
+
+@app.route('/drink')
+def drink():
+	return render_template('drink.html')
 	
 @app.route('/photo')
 def photo():
