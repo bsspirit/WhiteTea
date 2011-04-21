@@ -186,6 +186,7 @@ input.button {
 
 /* header */
 #header {
+	padding-top:10px;
 	height: 100px;
 	text-align: left;	
 }
@@ -195,7 +196,7 @@ input.button {
 }
 #header-content h1#logo {
 	position: absolute;	
-	font: bold 35px 'Trebuchet MS', Sans-serif;
+	font: bold 30px 'Trebuchet MS', Sans-serif;
 	letter-spacing: -2px; 
 	color: #FFF;
 	margin: 0; padding: 0;		

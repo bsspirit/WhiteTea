@@ -8,7 +8,7 @@ from flask import Flask, render_template, session, redirect, url_for, current_ap
 #STATIC_PATH='http://localhost/static/'
 
 app = Flask(__name__)
-app.debug = True
+#app.debug = True
 app.config.from_object(__name__)
 app.secret_key = 'A0Zr31j/3yX R~XHH!jmN]LWX/,?RT'
 
