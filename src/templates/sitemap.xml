@@ -24,4 +24,10 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
+	<url>
+		<loc>http://100rmb.info/sitemap</loc>
+		<lastmod>2011-04-22</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
 </urlset>
