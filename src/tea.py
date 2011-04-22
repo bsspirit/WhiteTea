@@ -36,5 +36,10 @@ def about():
 def google():
 	return render_template('robots.txt')
 
+@app.route('/sitemap')	
+@app.route('/sitemap.xml')
+def sitemap():
+	return render_template('sitemap.xml')
+
 if __name__ == '__main__':
 	app.run()
