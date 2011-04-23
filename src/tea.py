@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, render_template, session, redirect, url_for, current_app
+from flask import Flask, render_template, session, redirect, url_for, current_app, Response
 
 #SERVER_PATH='http://dotabook.info/'
 #STATIC_PATH='http://1.dotabook.sinaapp.com/static/'
@@ -8,7 +8,7 @@ from flask import Flask, render_template, session, redirect, url_for, current_ap
 #STATIC_PATH='http://localhost/static/'
 
 app = Flask(__name__)
-#app.debug = True
+app.debug = True
 app.config.from_object(__name__)
 app.secret_key = 'A0Zr31j/3yX R~XHH!jmN]LWX/,?RT'
 
@@ -32,14 +32,14 @@ def consult():
 def about():
 	return render_template('about.html')
 	
-@app.route('/robots.txt')
-def google():
-	return render_template('robots.txt')
+#@app.route('/robots.txt')
+#def google():
+#	return render_template('robots.txt')
 
-@app.route('/sitemap')	
-@app.route('/sitemap.xml')
-def sitemap():
-	return render_template('sitemap.xml')
+#@app.route('/sitemap')	
+#@app.route('/sitemap.xml')
+#def sitemap():
+#	return render_template('sitemap.xml')
 
 if __name__ == '__main__':
 	app.run()

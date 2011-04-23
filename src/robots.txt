@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://100rmb.info/sitemap.xml
+
