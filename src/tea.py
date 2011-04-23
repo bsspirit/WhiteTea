@@ -32,9 +32,9 @@ def consult():
 def about():
 	return render_template('about.html')
 
-#@app.route('/sitemap')	
-#def sitemap():
-#	return render_template('sitemap.xml')
+@app.route('/sitemap')	
+def sitemap():
+	return render_template('sitemap.html')
 
 if __name__ == '__main__':
 	app.run()
