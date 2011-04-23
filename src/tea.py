@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, render_template, session, redirect, url_for, current_app, Response
+from flask import Flask, render_template, session, redirect, url_for, current_app
 
 #SERVER_PATH='http://dotabook.info/'
 #STATIC_PATH='http://1.dotabook.sinaapp.com/static/'
