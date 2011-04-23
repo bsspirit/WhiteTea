@@ -31,13 +31,8 @@ def consult():
 @app.route('/about')
 def about():
 	return render_template('about.html')
-	
-#@app.route('/robots.txt')
-#def google():
-#	return render_template('robots.txt')
 
 #@app.route('/sitemap')	
-#@app.route('/sitemap.xml')
 #def sitemap():
 #	return render_template('sitemap.xml')
 
