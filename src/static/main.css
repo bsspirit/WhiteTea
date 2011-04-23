@@ -1,25 +1,11 @@
-/********************************************
-   AUTHOR:  			Erwin Aligam 
-   WEBSITE:   			http://www.styleshout.com/
-	TEMPLATE NAME: 	PixelGreen
-   TEMPLATE CODE: 	S-0010
-   VERSION:          1.2   
-	LAST MODIFIED:    June-05-2007       	
- *******************************************/ 
- 
-/********************************************
-   HTML ELEMENTS
-********************************************/ 
-
-/* top elements */
-* { padding: 0; margin: 0; }
+* { padding:0;margin:0;}
 
 body {
-	margin: 0; 	padding: 0;
-	font: normal 73%/1.5em sans-serif;
-	color: #555;
-	background: #FFF url(bg.jpg) repeat-x;
-	text-align: center;		
+margin:0;padding:0;
+font: normal 73%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+color: #555;
+background: #FFF url(bg.jpg) repeat-x;
+text-align: center;		
 }
 
 /* links */
@@ -32,13 +18,8 @@ h1 { font-size: 1.4em; color: #65944A; }
 h2 { font-size: 1.2em; text-transform: uppercase; }
 h3 { font-size: 1.2em; }
 
-p, h1, h2, h3 {
-	margin: 10px 15px;
-}
-ul, ol {
-	margin: 10px 30px;
-	padding: 0 15px;		
-}
+p, h1, h2, h3 {margin: 10px 15px;}
+ul, ol {margin: 10px 30px;padding: 0 15px;}
 
 /* images */
 img {
@@ -46,12 +27,8 @@ img {
 	padding: 5px;
 	background: #FAFAFA;
 }
-img.float-right {
-  margin: 5px 0px 5px 15px;  
-}
-img.float-left {
-  margin: 5px 15px 5px 0px;
-}
+img.float-right {margin: 5px 0px 5px 15px;}
+img.float-left {margin: 5px 15px 5px 0px;}
 
 code {
   margin: 5px 0;
@@ -80,13 +57,8 @@ blockquote {
 }
 
 /* start - table */
-table {
-	border-collapse: collapse;
-	margin: 10px 15px;	
-}
-th strong {
-	color: #fff;
-}
+table {border-collapse: collapse;margin: 10px 15px;}
+th strong {color: #fff;}
 th {
 	background: #74A846;
 	height: 29px;
@@ -97,9 +69,7 @@ th {
 	border-left: 1px solid #B6D59A;
 	border-bottom: solid 2px #FFF;
 }
-tr {
-	height: 30px;
-}
+tr {height: 30px;}
 td {
 	padding-left: 11px;
 	padding-right: 11px;
@@ -107,15 +77,9 @@ td {
 	border-left: 1px solid #FFF;
 	border-bottom: solid 1px #ffffff;
 }
-td.first,th.first {
-	border-left: 0px;
-}
-tr.row-a {
-	background: #F8F8F8;
-}
-tr.row-b {
-	background: #EFEFEF;
-}
+td.first,th.first {border-left: 0px;}
+tr.row-a {background: #F8F8F8;}
+tr.row-b {background: #EFEFEF;}
 /* end - table */
 
 /* form elements */
@@ -132,13 +96,13 @@ label {
 input {
 	padding: 2px;
 	border:1px solid #eee;
-	font: normal 1em sans-serif;
+	font: normal 1em "Trebuchet MS", Tahoma, sans-serif;
 	color:#777;
 }
 textarea {
 	width:400px;
 	padding:2px;
-	font: normal 1em sans-serif;
+	font: normal 1em "Trebuchet MS", Tahoma, sans-serif;
 	border:1px solid #eee;
 	height:100px;
 	display:block;
@@ -179,11 +143,7 @@ input.button {
 /***********************
 	  LAYOUT
 ************************/
-
-#header-content, #content, #footer-content {
-	width: 760px;
-}
-
+#header-content, #content, #footer-content {width: 760px;}
 /* header */
 #header {
 	padding-top:10px;
@@ -228,9 +188,7 @@ input.button {
 	list-style: none;
 	margin: 0; padding: 0;		
 }
-#header-content li {
-	display: inline;
-}
+#header-content li {display: inline;}
 #header-content li a {
 	float: left;
 	display: block;
@@ -326,11 +284,12 @@ input.button {
 	padding: 10px 0px 0px 5px;
 	margin: 0 0 0 10px;
 	border-bottom: 1px solid #f2f2f2; 	
-	font: normal 1.5em 'Sans-serif;
+	font: bold 1.3em 'Trebuchet MS',Tahoma,Sans-serif;
 }
-#main ul li {
-	list-style-image: url(bullet.gif);
-}
+#main ul li {list-style-image: url(bullet.gif);}
+
+.msg-form{margin-bottom:10px;}
+.msg{border-top: 1px dashed #D4D4D4;}
 
 .post {
 	margin: 0; padding: 0;
