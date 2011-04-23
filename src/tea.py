@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, session, redirect, url_for, current_app
 
+DATABASE = 'tea.db'
+
 #SERVER_PATH='http://dotabook.info/'
 #STATIC_PATH='http://1.dotabook.sinaapp.com/static/'
 
@@ -31,6 +33,10 @@ def consult():
 @app.route('/about')
 def about():
 	return render_template('about.html')
+	
+@app.route('/msg')
+def about():
+	return render_template('msg.html')
 
 @app.route('/sitemap')	
 def sitemap():
