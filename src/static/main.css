@@ -208,12 +208,12 @@ input.button {
 }
 
 /* header photo */
-.headerphoto {
+#headerphoto {
 	margin: 0 auto;
 	width: 770px;
 	height: 200px;
 	padding: 15px 10px 10px 10px; 
-	background: #FFF url(img/header.jpg) no-repeat center;	
+	background: #FFF url(img/header1.jpg) no-repeat center;	
 }
 
 /* content */

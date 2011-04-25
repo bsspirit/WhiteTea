@@ -1,0 +1,10 @@
+*{font-size:12px; font-family:Verdana;margin:0;padding:0}   
+#play img {border:0px}   
+#play {width:760px;height:191px;overflow:hidden;margin:50px 0 0 50px;}   
+#play_info{position:absolute;margin-top:141px;padding:8px 0 0 20px;height:42px;width:270px;color:#fff;z-index:1001;cursor:pointer}   
+#play_info b{font-size:14px;display:block}   
+#play_bg {position:absolute;background-color:#000;margin-top:141px;height:50px;width:760px;filter: Alpha(Opacity=30);opacity:0.3;z-index:1000;}   
+#play_text {position:absolute;margin:141px 10px 0 680px;height:50px;width:60px;z-index:1002;}   
+#play_text ul {list-style-type:none; width:100px;display:block;padding:30px 2px 2px;_padding-top:0px;filter: Alpha(Opacity=80);opacity:0.8;}   
+#play_text ul li {width:14px;height:14px;float:left;background-color:#000;display:block;color:#FFF;text-align:center;margin:1px;cursor:pointer;font-family:"Courier New";}   
+#play_list a{display:block;width:760px;height:191px;position:absolute;overflow:hidden}   
