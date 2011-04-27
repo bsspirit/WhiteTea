@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}安吉高山白茶|留言板{% endblock %}
+{% block content %}
+<div class="post">
+	<h1>留言板</h1>
+	<div class="msg-form">
+		<form method="POST" action="/message">
+			<p>
+			用户名:<input style="width:130px;" type="text" name="name" {% if form.name.data %}value="{{form.name.data}}"{%endif%} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			E-mail:<input style="width:130px;" type="text" name="email" {% if form.email.data %}value="{{form.email.data}}"{%endif%} />
+			</p>
+			<p><textarea name="content">{% if form.content.data %}{{form.content.data}}{%endif%}</textarea></p>
+			<p><input type="submit" value="发布"/></p>
+		</form>
+	</div>
+	
+	{% for msg in messages %}
+	<div class="msg">
+		<p><b>{{msg.name}}</b>&nbsp;&nbsp;<a>{{msg.email}}</a></p>
+		<p>{{msg.content}}</p>
+		<p class="post-footer align-right">	
+			<span class="date">{{msg.create_date}}</span>	
+		</p>
+	</div>
+	{% endfor %}
+	
+</div>
+{% endblock%}
