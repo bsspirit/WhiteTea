@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	setInterval("move()", 4000);  
+	setInterval("move()", 7000);  
 });
 
 var n = 1;
