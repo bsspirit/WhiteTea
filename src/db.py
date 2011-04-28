@@ -62,7 +62,9 @@ class Wiki(db.Model):
 	def __init__(self, name, email, title, content, image, ip, repost=None):
 		self.name = name
 		self.email = email
+		self.title = title
 		self.content = content
+		self.image = image
 		self.ip = ip
 		if repost : self.repost = repost
 

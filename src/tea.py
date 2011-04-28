@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, session, redirect, url_for, current_app, request, flash
 from db import db, Message, Wiki
-from form import MessageForm
+from form import MessageForm, LoginForm, WikiForm
+from module import admin
 
 app = Flask(__name__)
 app.debug = True
@@ -53,6 +54,39 @@ def message():
 @app.route('/sitemap')
 def sitemap():
 	return render_template('sitemap.html')
+	
+@app.route('/login', methods=['POST','GET'])
+def login():
+	form = LoginForm(request.form)
+	if request.method == 'POST' and form.validate():
+		if form.username.data == 'bsspirit' and form.password.data == '85831923':
+			session['login'] = True
+			return redirect(url_for('admin'))
+	return render_template('login.html')
+
+@app.route('/logout')
+def logout():
+	session['login'] = False
+	return redirect(url_for('index'))
+	
+@app.route('/admin')
+def admin():
+	if not session.get('login', False):return redirect(url_for('login'))
+	return render_template('admin.html')
+	
+@app.route('/admin/wiki', methods=['POST','GET'])
+def admin_wiki():
+	if not session.get('login', False):return redirect(url_for('login'))
+	
+	form = WikiForm(request.form)
+	current_app.logger.info(form.title.data)
+	
+	if request.method == 'POST' and form.validate():
+		db.session.add(Wiki(form.name.data, form.email.data, form.title.data, form.content.data,form.image.data,request.remote_addr,form.repost.data))
+		db.session.commit()
+	
+	user = {'name':'bsspirit','email':'bsspirit@gmail.com'}
+	return render_template('admin_wiki.html', user=user)
 	
 @app.errorhandler(404)
 def page_not_found(e):

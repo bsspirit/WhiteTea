@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}安吉高山白茶|管理员登录{% endblock %}
+{% block content %}
+<div class="post">
+	<h1>管理员登录</h1>
+	<form method="POST" action="/login">
+		<p>用户名<br/><input style="width:130px;" type="text" name="username" /></p>
+		<p>密码<br/><input style="width:130px;" type="password" name="password" /></p>
+		<p><input type="submit" value="登录"/></p>
+	</form>
+</div>
+{% endblock%}
