@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, session, redirect, url_for, current_app, request, flash
-from db import db, Message
+from db import db, Message, Wiki
 from form import MessageForm
+import mydate 
 
 app = Flask(__name__)
 app.debug = True
@@ -27,6 +28,17 @@ def consult():
 @app.route('/about')
 def about():
 	return render_template('about.html')
+	
+@app.route('/wiki')
+def wiki():
+	p,count = int(request.args.get('p','1')),20
+	wiki_page = Wiki.query.filter(Wiki.mark==0).order_by(Wiki.id.desc()).paginate(p,count)
+	return render_template('wiki.html',wikis=wiki_page.items)
+	
+@app.route('/wiki/<int:wkid>')
+def wiki_content(wkid):
+	wiki = Wiki.query.filter(Wiki.id==wkid).filter(Wiki.mark==0).first()
+	return render_template('wiki-content.html',wiki=wiki)
 	
 @app.route('/message', methods=['POST','GET'])
 def message():

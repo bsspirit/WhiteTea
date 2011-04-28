@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}安吉高山白茶|知识库{% endblock %}
+{% block content %}
+<div class="post">
+	<h1>白茶知识库</h1>
+	<ul>
+		{% for wiki in wikis %}
+		<li>
+			<a href="/wiki/{{wiki.id}}">
+			{%if wiki.repost%}[转]{%endif%}
+			{{wiki.title}}
+			</a>&nbsp;-&nbsp;{{wiki.create_date}}
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock%}
