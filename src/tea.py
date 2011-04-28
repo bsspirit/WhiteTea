@@ -2,7 +2,6 @@
 from flask import Flask, render_template, session, redirect, url_for, current_app, request, flash
 from db import db, Message, Wiki
 from form import MessageForm
-import mydate 
 
 app = Flask(__name__)
 app.debug = True

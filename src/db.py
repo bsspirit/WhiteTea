@@ -7,6 +7,26 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://tea:tea@localhost/tea'
 
 db = SQLAlchemy(app)
 
+class User(db.Model):
+	__tablename__ = 't_tea_user'
+	id = db.Column(db.Integer, primary_key=True)
+	username = db.Column(db.String(16))
+	password = db.Column(db.String(16))
+	email = db.Column(db.String(64))
+	create_date = db.Column(db.DateTime, default=datetime.now())
+	ip = db.Column(db.String(32))
+	mark = db.Column(db.Integer,default=0)
+	
+	def __init__(self, username, password, email, ip):
+		self.name = name
+		self.email = email
+		self.content = content
+		self.ip = ip
+
+	def __repr__(self):
+		return '%s: %s' % (self.username, self.email)
+
+
 class Message(db.Model):
 	__tablename__ = 't_tea_message'
 	id = db.Column(db.Integer, primary_key=True)
