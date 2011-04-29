@@ -38,7 +38,7 @@ def wiki():
 @app.route('/wiki/<int:wkid>')
 def wiki_content(wkid):
 	wiki = Wiki.query.filter(Wiki.id==wkid).filter(Wiki.mark==0).first()
-	return render_template('wiki-content.html',wiki=wiki)
+	return render_template('wiki_content.html',wiki=wiki)
 	
 @app.route('/message', methods=['POST','GET'])
 def message():

@@ -1,5 +1,9 @@
 {% extends "layout.html" %}
 {% block title %}安吉高山白茶|白茶知识库管理{% endblock %}
+{% block head %}
+<script src="{{url_for('static', filename='js/xheditor-1.1.6-zh-cn.min.js')}}" type="text/javascript"></script>
+{% endblock %}
+
 {% block content %}
 <div class="post">
 	<h1>白茶知识库管理</h1>
@@ -10,7 +14,7 @@
 		<p>标题<br/><input style="width:350px;" type="text" name="title" /></p>
 		<p>原文url<br/><input style="width:350px;" type="text" name="repost" /></p>
 		<p>图片url<br/><input style="width:350px;" type="text" name="image" value="http://" /></p>
-		<p>内容<br/><textarea name="content"></textarea></p>
+		<p>内容<br/><textarea id="elm4" name="content" class="xheditor-mini" rows="30" cols="80"></textarea></p>
 		
 		<p><input type="submit" value="发布"/></p>
 	</form>
