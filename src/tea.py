@@ -75,20 +75,39 @@ def logout():
 def admin():
 	if not session.get('login', False):return redirect(url_for('login'))
 	return render_template('admin.html')
-	
+
+# admin wiki
 @app.route('/admin/wiki', methods=['POST','GET'])
 def admin_wiki():
 	if not session.get('login', False):return redirect(url_for('login'))
 	
 	form = WikiForm(request.form)
-	current_app.logger.info(form.title.data)
-	
 	if request.method == 'POST' and form.validate():
 		db.session.add(Wiki(form.name.data, form.email.data, form.title.data, form.content.data,form.image.data,request.remote_addr,form.repost.data))
 		db.session.commit()
 	
 	user = {'name':'bsspirit','email':'bsspirit@gmail.com'}
-	return render_template('admin_wiki.html', user=user)
+	return render_template('admin_wiki_insert.html', user=user)
+	
+@app.route('/admin/wiki/<int:id>', methods=['POST','GET'])
+def admin_wiki_update(id):
+	if not session.get('login', False):return redirect(url_for('login'))
+	
+	wiki = Wiki.query.filter(Wiki.id==id).first()
+	form = WikiForm(request.form)	
+	if request.method == 'POST' and form.validate():
+		wiki.name = form.name.data
+		wiki.email = form.email.data
+		wiki.title = form.title.data
+		wiki.content = form.content.data
+		wiki.image = form.image.data
+		wiki.ip = request.remote_addr
+		wiki.repost = form.repost.data
+		db.session.merge(wiki)
+		db.session.commit()
+		
+	user = {'name':'bsspirit','email':'bsspirit@gmail.com'}
+	return render_template('admin_wiki_update.html', user=user, wiki=wiki)
 
 @app.route('/admin/wikis')
 def admin_wikis():
