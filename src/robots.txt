@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /admin/
+
 Sitemap: http://100rmb.info/sitemap.xml
 
