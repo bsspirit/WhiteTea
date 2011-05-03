@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>http://100rmb.info/</loc>
-		<lastmod>2011-04-28</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.9</priority>
-	</url>
-	<url>
-		<loc>http://100rmb.info/drink</loc>
-		<lastmod>2011-04-28</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://100rmb.info/photo</loc>
-		<lastmod>2011-04-28</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://100rmb.info/consult</loc>
-		<lastmod>2011-04-28</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://100rmb.info/message</loc>
-		<lastmod>2011-04-28</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://100rmb.info/sitemap</loc>
-		<lastmod>2011-04-28</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://100rmb.info/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/drink</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/photo</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/consult</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/message</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/sitemap</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/4</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/3</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/2</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/1</loc>
+  <changefreq>weekly</changefreq>
+</url>
 </urlset>
