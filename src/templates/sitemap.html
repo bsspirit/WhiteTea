@@ -3,14 +3,23 @@
 {% block content %}
 <div class="post">
 	<h1>站点地图</h1>
+
+	<h2>导航菜单</h2>
 	<p>
-		<a href="/" title="安吉高山白茶" alt="安吉高山白茶">首页</a> | 
-		<a href="/drink" title="安吉高山白茶" alt="安吉高山白茶">品味白茶</a> | 
-		<a href="/photo" title="安吉高山白茶" alt="安吉高山白茶">实景照片</a> | 
-		<a href="/consult" title="安吉高山白茶" alt="安吉高山白茶">购买咨询</a> | 
-		<a href="/sitemap" title="安吉高山白茶" alt="安吉高山白茶">站点地图</a> |
-		<a href="/message" title="安吉高山白茶" alt="安吉高山白茶">留言板</a> |
-		<a href="/wiki" title="安吉高山白茶" alt="安吉高山白茶">白茶知识库</a>
+		<a href="/" title="首页" alt="安吉高山白茶">首页</a>&nbsp;| 
+		<a href="/drink" title="品味白茶" alt="安吉高山白茶">品味白茶</a>&nbsp;| 
+		<a href="/photo" title="实景照片" alt="安吉高山白茶">实景照片</a>&nbsp;| 
+		<a href="/consult" title="购买咨询" alt="安吉高山白茶">购买咨询</a>&nbsp;| 
+		<a href="/sitemap" title="站点地图" alt="安吉高山白茶">站点地图</a>&nbsp;|
+		<a href="/message" title="留言板" alt="安吉高山白茶">留言板</a>&nbsp;|
+		<a href="/wiki" title="白茶知识库" alt="安吉高山白茶">白茶知识库</a>
+	</p>
+
+	<h2>白茶知识库</h2>
+	<p>
+	{% for wiki in wikis %}
+		<a href="/wiki/{{wiki.id}}" title="{{wiki.title}}" alt="安吉高山白茶">{{wiki.title}}</a>&nbsp;|
+	{% endfor %}
 	</p>
 </div>
 {% endblock%}

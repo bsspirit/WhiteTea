@@ -54,7 +54,9 @@ def message():
 
 @app.route('/sitemap')
 def sitemap():
-	return render_template('sitemap.html')
+	p,count = int(request.args.get('p','1')),40
+	wiki_page = Wiki.query.filter(Wiki.mark==0).order_by(Wiki.id.desc()).paginate(p,count)
+	return render_template('sitemap.html',wikis=wiki_page.items)
 	
 @app.route('/login', methods=['POST','GET'])
 def login():
