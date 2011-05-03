@@ -9,6 +9,7 @@ app.debug = True
 app.config.from_object(__name__)
 app.secret_key = 'A0Zr31j/3yX R~XHH!jmN]LWX/,?RT'
 
+# navgator module
 @app.route('/')
 def index():
 	return render_template('index.html')
@@ -68,7 +69,8 @@ def login():
 def logout():
 	session['login'] = False
 	return redirect(url_for('index'))
-	
+
+# admin module
 @app.route('/admin')
 def admin():
 	if not session.get('login', False):return redirect(url_for('login'))
@@ -87,7 +89,16 @@ def admin_wiki():
 	
 	user = {'name':'bsspirit','email':'bsspirit@gmail.com'}
 	return render_template('admin_wiki.html', user=user)
+
+@app.route('/admin/wikis')
+def admin_wikis():
+	if not session.get('login', False):return redirect(url_for('login'))
 	
+	p,count = int(request.args.get('p','1')),40
+	wiki_page = Wiki.query.filter(Wiki.mark==0).order_by(Wiki.id.desc()).paginate(p,count)
+	return render_template('admin_wikis.html',wikis=wiki_page.items)
+
+# system module	
 @app.errorhandler(404)
 def page_not_found(e):
 	return render_template('404.html'), 404
