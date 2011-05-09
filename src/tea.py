@@ -40,8 +40,9 @@ def wiki():
 def wiki_content(wkid):
 	# record PV
 	pv = Wiki_Stat.query.filter(Wiki_Stat.wkid==wkid).filter(Wiki_Stat.operate=='pv').first()
+	count = 1
 	if pv: 
-		pv.count = pv.count+1
+		count = pv.count = pv.count+1
 		db.session.merge(pv)
 	else : 
 		db.session.add(Wiki_Stat(wkid))
@@ -49,7 +50,7 @@ def wiki_content(wkid):
 	# end
 	
 	wiki = Wiki.query.filter(Wiki.id==wkid).filter(Wiki.mark==0).first()
-	return render_template('wiki_content.html',wiki=wiki,pv=pv.count)
+	return render_template('wiki_content.html',wiki=wiki,pv=count)
 	
 @app.route('/message', methods=['POST','GET'])
 def message():
