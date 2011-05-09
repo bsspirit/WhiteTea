@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, session, redirect, url_for, current_app, request, flash
-from db import db, Message, Wiki
+from db import db, Message, Wiki, Wiki_Stat
 from form import MessageForm, LoginForm, WikiForm
 from module import admin
 
@@ -38,8 +38,18 @@ def wiki():
 	
 @app.route('/wiki/<int:wkid>')
 def wiki_content(wkid):
+	# record PV
+	pv = Wiki_Stat.query.filter(Wiki_Stat.wkid==wkid).filter(Wiki_Stat.operate=='pv').first()
+	if pv: 
+		pv.count = pv.count+1
+		db.session.merge(pv)
+	else : 
+		db.session.add(Wiki_Stat(wkid))
+	db.session.commit()
+	# end
+	
 	wiki = Wiki.query.filter(Wiki.id==wkid).filter(Wiki.mark==0).first()
-	return render_template('wiki_content.html',wiki=wiki)
+	return render_template('wiki_content.html',wiki=wiki,pv=pv.count)
 	
 @app.route('/message', methods=['POST','GET'])
 def message():

@@ -70,7 +70,21 @@ class Wiki(db.Model):
 
 	def __repr__(self):
 		return '%s: %s' % (self.name, self.content)
+		
+class Wiki_Stat(db.Model):
+	__tablename__ = 't_tea_wiki_stat'
+	id = db.Column(db.Integer, primary_key=True)
+	wkid = db.Column(db.Integer)
+	count = db.Column(db.Integer,default=1)
+	operate = db.Column(db.String(8),default='pv') #pv,up,down,repost
 	
+	def __init__(self, wkid, count=1, operate='pv'):
+		self.wkid=wkid
+		self.operate = operate
+		self.count = count
+		
+	def __repr__(self):
+		return 'wkid=%s:%s,%s' % (self.wkid, self.operate, self.count)		
 	
 		
 if __name__ == '__main__':
