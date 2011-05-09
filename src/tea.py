@@ -49,8 +49,13 @@ def wiki_content(wkid):
 	db.session.commit()
 	# end
 	
+	stat={}
+	stat['pv']=count
+	stat['prev']=Wiki.query.filter(Wiki.id==wkid-1).filter(Wiki.mark==0).first()
+	stat['next']=Wiki.query.filter(Wiki.id==wkid+1).filter(Wiki.mark==0).first()
+	
 	wiki = Wiki.query.filter(Wiki.id==wkid).filter(Wiki.mark==0).first()
-	return render_template('wiki_content.html',wiki=wiki,pv=count)
+	return render_template('wiki_content.html',wiki=wiki,stat=stat)
 	
 @app.route('/message', methods=['POST','GET'])
 def message():
