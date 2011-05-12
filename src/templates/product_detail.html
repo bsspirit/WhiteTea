@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block title %}龙仙山安吉白茶|{{product.title}}{% endblock %}
+{% block content %}
+<div class="product">
+	<h1>{{product.title}}</h1>
+	
+	<div class="summary">
+		<div class="image">
+			<img src="{{product.image}}" width="310"/>
+		</div>
+		<div class="property">
+			<ul>
+				<li>优惠价:&nbsp;&nbsp;<span class="price">{{product.price2}}</span>&nbsp;&nbsp;元</li>
+				<li>市场价:&nbsp;&nbsp;<span class="price-market">{{product.price}}</span>&nbsp;&nbsp;元</li>
+				<li>净含量:&nbsp;&nbsp;{{attr.net_weight}}g</li>
+				<li>运费:&nbsp;&nbsp;快递: 15.00元 EMS: 25.00元</li>
+	  			<li>所在地区:&nbsp;&nbsp;浙江安吉</li>
+				<li>浏览次数:&nbsp;&nbsp;{{stat.pv}}次</li>
+			</ul>
+			<div class="order">
+				<a href="#">支付宝购买</a>
+			</div>
+		</div>
+		
+		
+		<div class="clear"></div>
+	</div>
+	
+	<div class="attributes">
+ 		<ul>
+			<!--
+			<li>生产许可证编号：{{attr.code1}}</li>
+			<li>卫生许可证编号：{{attr.code2}}</li>
+			<li>产品标准号：{{attr.code3}}</li>
+			<li>厂家联系方式:&nbsp;{{attr.factory_phone}}</li>
+			-->
+			<li>厂名:&nbsp;{{attr.factory_name}}</li>
+			<li>厂址:&nbsp;{{attr.factory_addr}}</li>
+			<li>配料表:&nbsp;{{attr.ingredients}}</li>
+			<li>净含量(g):&nbsp;{{attr.net_weight}}</li>
+			<li>储藏方法:&nbsp;{{attr.store_way}}</li>
+			<li>产地:&nbsp;{{attr.origine}}</li>
+			<li>保质期:&nbsp;{{attr.shief_life}}</li>
+			<li>食品添加剂:&nbsp;{{attr.food_addiitive}}</li>
+		    <li>包装方式:&nbsp;{{attr.packing}}</li>
+		    <li>品牌:&nbsp;{{attr.brand}}</li>
+		    <li>系列:&nbsp;{{attr.series}}</li>
+		    <li>重量(g):&nbsp;{{attr.weight}}</li>
+		    <li>白茶种类:&nbsp;{{attr.kind}}</li>
+		    <li>茶叶等级:&nbsp;{{attr.grade}}</li>
+		    <li>茶叶采摘时间:&nbsp;{{attr.plucking_time}}</li>
+		    <li>茶叶生长季节:&nbsp;{{attr.growing_season}}</li>
+		    <li>是否为有机食品:&nbsp;{{attr.organic_food}}</li>  
+		</ul>
+		<div class="clear"></div>
+	</div>
+	{{product.content|safe}}
+</div>
+{% endblock%}

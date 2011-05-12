@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}龙仙山安吉白茶|白茶产品{% endblock %}
+{% block content %}
+<div class="products">
+	<h1>产品目录 - 安吉白茶</h1>
+	<ul>
+		{% for product in products %}
+		<li>
+			<div class="item">
+				<a target="_blank" href="/product/{{product.id}}"><img width="160" height="160" src="{{product.image}}"></a><br/>
+				<a href="/product/{{product.id}}" target="_blank">{{product.title}}</a>
+				<p><span class="price-market">￥{{product.price}}</span>&nbsp;&nbsp;<span class="price">￥{{product.price2}}</span></p>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+	<div class="clear"></div>
+</div>
+{% endblock%}

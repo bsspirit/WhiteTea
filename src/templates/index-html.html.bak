@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="Description" content="白茶,安吉白茶,安吉高山白茶,高山白茶,千亩茶园,自家茶园" />
+<meta name="Keywords" content="白茶,安吉白茶,安吉高山白茶,高山白茶,千亩茶园,自家茶园" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Author" content="Conan Zhang - bsspirit@gmail.com" />
+<meta name="Robots" content="index,follow" />
+<link rel="stylesheet" href="{{url_for('static', filename='PixelGreen.css')}}" type="text/css" />
+<title>安吉高山白茶|首页</title>
+</head>
+
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+
+	<div id="header">
+		<div id="header-content">
+		<h1 id="logo">
+			<a href="#" title="安吉高山白茶">安吉<span class="gray">高山白茶</span></a>
+		</h1>	
+		<h2 id="slogan">龙仙山 -- 海拔800米，自家千亩茶园，高山白茶</h2>		
+		
+		<!-- Menu Tabs -->
+		<ul>
+			<li><a href="#" id="current">首页</a></li>
+			<li><a href="#">白茶</a></li>
+			<li><a href="#">实景照片</a></li>
+			<li><a href="#">购买咨询</a></li>
+			<li><a href="#">关于我们</a></li>			
+		</ul>		
+		</div>
+	</div>
+	
+	<div class="headerphoto"></div>
+				
+	<!-- content-wrap starts here -->
+	<div id="content-wrap">
+		<div id="content">		
+			<div id="sidebar" >
+				<div class="sidebox">
+				<h1>业务咨询</h1>
+				<p><strong>北京联系人</strong><br/>
+				张丹: 18611314197<br/>
+				QQ: 86152615<br/>
+				E-mail: bsspirit@gmail.com<br/>
+				</p>
+				
+				<p><strong>安吉联系人</strong><br/>
+				陈小英: 15088374733<br/>
+				QQ: 664750243<br/>
+				</p>	
+			</div>			
+
+			<div class="sidebox">	
+				<h1 class="clear">实景照片</h1>
+				<ul class="sidemenu">
+					<li><a href="#" class="top">海拔800米茶山</a></li>
+					<li><a href="#">自家千亩茶园</a></li>
+					<li><a href="#">漂亮的茶农</a></li>
+					<li><a href="#">白茶树</a></li>
+					<li><a href="#">炒茶工房</a></li>				
+					<li><a href="#">成品干茶</a></li>
+					<li><a href="#">精品礼盒</a></li>
+				</ul>
+			</div>
+			
+			<div class="sidebox">	
+				<h1>安吉介绍</h1>
+				<p>安吉县位于浙江省北部，这里山川隽秀，绿水长流，是我国著名的竹子之乡。1982年，人们偶然在安吉的一处山谷里发现了一株白茶古茶树，自此以后，安吉白茶日渐被人们所认识和开发。这里生长着安吉白茶和西湖龙井。两相对照，安吉白茶茶树的颜色明显较浅。更加神奇的是，茶树茶芽颜色会随着时令发生变化：清明前的嫩叶是灰白色的；到了谷雨，嫩叶会逐渐转绿，直到全绿。安吉白茶的产茶期较短，一般只有一个月左右，这使得白茶更显娇贵。 与别的绿茶相比，安吉白茶的显著特点就是氨基酸含量高，营养丰富。因此，安吉白茶不仅喝起来口感好，而且还有利于身体健康。最近，白茶在女孩子中流行起来，还赢得了"<strong>美容茶</strong>"的雅号。
+				</p>									
+			</div>				
+		</div>	
+	
+		<div id="main">
+			<div class="post">
+				<h1>白茶介绍</h1>
+				<p>作者 <a>张丹</a> <a href="#">bsspirit@gmail.com</a></p>
+				<p><strong>白茶树</strong>原产地海拔800米左右，每年春茶幼嫩芽叶为白色，尤以一芽二叶开展时为最白，主脉呈绿色。 春茶成熟老叶由白逐渐转为白绿相间的花白色，夏秋茶均呈绿色。外形细秀，色绿润，香高持久，味鲜爽，不失为一种突出的创新名茶。 嫩叶洁白如玉，干茶翠绿金黄；入汤后，叶底玉白，主脉呈绿色，嫩香持久，滋味鲜醇，汤色鹅黄。</p>
+				<p><img width="480px" src="{{url_for('static', filename='img/1.jpg')}}"/></p>
+				<p>佳节送礼，探亲访友，首选之茶。。。</p>
+				<p class="post-footer align-right">					
+					<span class="date">2011年4月1日</span>	
+				</p>
+			</div>
+			
+			<div class="post">
+				<h1>独特的白茶</h1>
+				<p>作者 <a>张丹</a> <a href="#">bsspirit@gmail.com</a></p>
+				<p>
+					<p><strong>安吉白茶的最大特点</strong><br/>
+					1. 富含氨基酸：安吉白茶因其氨基酸含量高出一般茶一倍，为6.19%—6.92%，茶多酚10.7%。<br/>
+					2. 口感特点：中国茶可分六大类：绿茶、红茶、青茶、白茶、黄茶、黑茶，安吉白茶虽名为白茶，却属于绿茶类。因为它是白叶茶按照绿茶的方法制作而成的。新叶经过四五个小时的摊放，然后按照一定的温度和时间进行杀青。在这之后是整形理条，最后烘干，安吉白茶就全新出锅了。新的安吉白茶，冲泡以后，茎翠叶白，茶汤颜色鹅黄，香气鲜爽馥郁。
+					</p>
+					
+					<p><strong>营养分析</strong><br/>
+					安吉白茶的嫩茶氨基酸含量高达7%，最高达到10．6％，比其他绿茶高出3~4倍，而茶多酚含量又较低，故茶汤滋味鲜醇柔和，口感很好。
+					</p>
+					
+					<p><strong>适合人群</strong><br/>
+					老少咸宜，也可作为高档礼品赠送亲朋好友。
+					</p>
+					
+					<p><strong>外形特点</strong><br/>
+					成茶条索挺直扁平，似兰花，色绿翠，白毫显露，汤色清澈明亮，清香四溢，叶底芽叶肥壮，嫩绿明亮成朵。</p>
+					</p>
+					
+					<p><img width="480px" src="{{url_for('static', filename='img/2.jpg')}}"/></p>
+					<p>佳节送礼，探亲访友，首选之茶。。。</p>
+					
+				<p class="post-footer align-right">					
+					<span class="date">2011年4月1日</span>	
+				</p>
+			</div>									
+		</div>					
+		
+	<!-- content-wrap ends here -->		
+	</div></div>
+
+<!-- footer starts here -->	
+<div id="footer"><div id="footer-content">
+		<div class="col float-left">
+			<h1>合作网站</h1>
+			<ul>				
+				<li><a href="http://bsspirit.taobao.com"><strong>淘宝网</strong> - 淘！我喜欢</a></li>
+				<li><a href="http://weibo.com/dotabook"><strong>新浪微博</strong> - 随时随地分享身边的新鲜事儿</a></li>			
+				<li><a href="http://www.woju230.com"><strong>蜗聚团</strong> - 生活家居团购专家</a></li>
+			</ul>			
+		</div>
+		
+		<div class="col float-left">
+			<h1>友情链接</h1>
+			<ul>				
+				<li><a href="http://bsspirit.taobao.com">淘宝网</a></li>
+				<li><a href="http://weibo.com/dotabook">新浪微博</a></li>
+				<li><a href="http://www.woju230.com">蜗聚团</a></li>
+			</ul>			
+		</div>		
+	
+		<div class="col2 float-right">
+			<p>&copy; Copyright 2011 <strong>安吉龙仙山高山白茶</strong><br/></p>
+			<ul>						
+				<li><a href="#"><strong>回到首页</strong></a></li>
+				<li><a href="#"><strong>站点地图</strong></a></li>
+			</ul>	
+		</div>
+</div></div>
+<!-- footer ends here -->
+<!-- wrap ends here -->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+{% extends "admin_layout.html" %}
+{% block title %}安吉高山白茶|产品管理{% endblock %}
+{% block head %}
+<script src="http://1.100rmb.sinaapp.com/js/xheditor-1.1.6-zh-cn.min.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block content %}
+<div class="post">
+	<h1><a href="/admin">后台管理</a> - 产品 - 增加</h1>
+	<form method="POST" action="/admin/product">
+		<p>产品标题<br/><input style="width:350px;" type="text" name="title" value="" /></p>
+		<p>市场价格<br/><input style="width:100px;" type="text" name="price" value="" /></p>	
+		<p>优惠价格<br/><input style="width:100px;" type="text" name="price2" value="" /></p>
+		<p>图片url<br/><input style="width:350px;" type="text" name="image" value="http://" /></p>
+		<p>内容<br/><textarea id="elm4" name="content" class="xheditor-mini" rows="30" cols="120"></textarea></p>
+
+		<p>净含量(g)<br/><input style="width:250px;" type="text" name="net_weight" value="50" /></p>
+		<p>重量(g)<br/><input style="width:250px;" type="text" name="weight" value="50" /></p>
+		<p>茶叶等级<br/><input style="width:250px;" type="text" name="grade" value="特级" /></p>		
+		<p>生产许可证编号<br/><input style="width:250px;" type="text" name="code1" value="QS330114010819" /></p>
+		<p>卫生许可证编号<br/><input style="width:250px;" type="text" name="code2" value="浙卫2008第330108" /></p>
+		<p>产品标准号<br/><input style="width:250px;" type="text" name="code3" value="Q/YFT 0002 S-2009" /></p>
+		<p>厂名<br/><input style="width:250px;" type="text" name="factory_name" value="龙仙山安吉茶园" /></p>
+		<p>厂址<br/><input style="width:250px;" type="text" name="factory_addr" value="浙江安吉杭垓镇缫舍村毛田坞16号" /></p>
+		<p>厂家联系方式<br/><input style="width:250px;" type="text" name="factory_phone" value="18611314197" /></p>
+		<p>储藏方法<br/><input style="width:250px;" type="text" name="store_way" value="阴凉干燥处密封储藏" /></p>
+		<p>配料表<br/><input style="width:250px;" type="text" name="ingredients" value="安吉白茶" /></p>
+		<p>产地<br/><input style="width:250px;" type="text" name="origine" value="浙江安吉" /></p>
+		<p>保质期<br/><input style="width:250px;" type="text" name="shief_life" value="12个月" /></p>
+		<p>食品添加剂<br/><input style="width:250px;" type="text" name="food_addiitive" value="无" /></p>
+		<p>包装方式<br/><input style="width:250px;" type="text" name="packing" value="包装" /></p>
+		<p>品牌<br/><input style="width:250px;" type="text" name="brand" value="龙仙山安吉白茶" /></p>
+		<p>系列<br/><input style="width:250px;" type="text" name="series" value="凤型" /></p>
+		<p>白茶种类<br/><input style="width:250px;" type="text" name="kind" value="安吉白茶" /></p>
+		<p>茶叶采摘时间<br/><input style="width:250px;" type="text" name="plucking_time" value="春茶" /></p>
+		<p>茶叶生长季节<br/><input style="width:250px;" type="text" name="growing_season" value="春茶" /></p>
+		<p>是否为有机食品<br/><input style="width:250px;" type="text" name="organic_food" value="是" /></p>
+		
+		<p><input type="submit" value="发布"/></p>
+	</form>
+</div>
+{% endblock%}

@@ -1,0 +1,16 @@
+{% extends "admin_layout.html" %}
+{% block title %}安吉高山白茶|产品管理{% endblock %}
+{% block content %}
+<div class="post">
+	<h1><a href="/admin">后台管理</a> - 产品 - 列表</h1>
+	<ul>
+	{% for product in products %}
+		<li>
+			<a href="/product/{{product.id}}" target="_blank">
+			{{product.title}}
+			</a>&nbsp;-&nbsp;[<a href="/admin/product/{{product.id}}">编辑</a>&nbsp;|&nbsp;<a href="/admin/product/del/{{product.id}}">删除</a>]
+		</li>
+	{% endfor %}
+	</ul>
+</div>
+{% endblock%}
