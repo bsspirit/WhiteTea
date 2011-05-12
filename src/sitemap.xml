@@ -8,46 +8,118 @@
 
 <url>
   <loc>http://100rmb.info/</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://100rmb.info/drink</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://100rmb.info/photo</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://100rmb.info/consult</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://100rmb.info/message</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://100rmb.info/product</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://100rmb.info/wiki</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/drink</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/photo</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/consult</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/message</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://100rmb.info/sitemap</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/product/4</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/product/3</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/product/2</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/product/1</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/17</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/16</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/15</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/14</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/13</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/12</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/11</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/10</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/9</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/8</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/7</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/6</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://100rmb.info/wiki/5</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://100rmb.info/wiki/4</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://100rmb.info/wiki/3</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://100rmb.info/wiki/2</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://100rmb.info/wiki/1</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>

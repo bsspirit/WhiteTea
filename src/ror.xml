@@ -6,89 +6,233 @@
 
 <item>
      <link>http://100rmb.info/</link>
-     <title>安吉高山白茶|首页</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <title>龙仙山安吉白茶|首页</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://100rmb.info/drink</link>
-     <title>安吉高山白茶|品味白茶</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://100rmb.info/photo</link>
-     <title>安吉高山白茶|实景照片</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://100rmb.info/consult</link>
-     <title>安吉高山白茶|购买咨询</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://100rmb.info/message</link>
-     <title>安吉高山白茶|留言板</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <link>http://100rmb.info/product</link>
+     <title>龙仙山安吉白茶|白茶产品</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://100rmb.info/wiki</link>
-     <title>安吉高山白茶|知识库</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <title>龙仙山安吉白茶|知识库</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/drink</link>
+     <title>龙仙山安吉白茶|品味白茶</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/photo</link>
+     <title>龙仙山安吉白茶|实景照片</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/consult</link>
+     <title>龙仙山安吉白茶|购买咨询</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/message</link>
+     <title>龙仙山安吉白茶|留言板</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://100rmb.info/sitemap</link>
-     <title>安吉高山白茶|站点地图</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <title>龙仙山安吉白茶|站点地图</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://100rmb.info/product/4</link>
+     <title>龙仙山安吉白茶|龙仙山/2011新茶 雨前安吉白茶50克/罐 易拉罐装</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/product/3</link>
+     <title>龙仙山安吉白茶|龙仙山/特级 包邮 2011新茶叶正宗明前安吉白茶铁盒礼品装</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/product/2</link>
+     <title>龙仙山安吉白茶|龙仙山/2011新茶叶正宗雨前安吉白茶铁盒礼品装</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/product/1</link>
+     <title>龙仙山安吉白茶|龙仙山/2011新茶叶正宗雨前安吉白茶50克/罐</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/17</link>
+     <title>龙仙山安吉白茶|安吉白茶的人文历史</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/16</link>
+     <title>龙仙山安吉白茶|白茶的种类</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/15</link>
+     <title>龙仙山安吉白茶|安吉白茶-茶中精品</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/14</link>
+     <title>龙仙山安吉白茶|白茶的传说</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/13</link>
+     <title>龙仙山安吉白茶|白茶的保健作用</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/12</link>
+     <title>龙仙山安吉白茶|浙江安吉“明前茶”产量减少70%</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/11</link>
+     <title>龙仙山安吉白茶|15万外来茶姑安吉采新芽</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/10</link>
+     <title>龙仙山安吉白茶|高档安吉白茶产量减少需求稳定</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/9</link>
+     <title>龙仙山安吉白茶|闻香识白茶</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/8</link>
+     <title>龙仙山安吉白茶|规模茶场看好“明后”安吉白茶</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/7</link>
+     <title>龙仙山安吉白茶|安吉白茶冲泡方法</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/6</link>
+     <title>龙仙山安吉白茶|白茶与白片</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://100rmb.info/wiki/5</link>
+     <title>龙仙山安吉白茶|安吉白茶与福建白茶区别</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://100rmb.info/wiki/4</link>
-     <title>安吉高山白茶|白茶 - 维基百科</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <title>龙仙山安吉白茶|白茶 - 维基百科</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://100rmb.info/wiki/3</link>
-     <title>安吉高山白茶|白茶的历史渊源</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <title>龙仙山安吉白茶|白茶的历史渊源</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://100rmb.info/wiki/2</link>
-     <title>安吉高山白茶|白茶 -- 百科名片</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <title>龙仙山安吉白茶|白茶 -- 百科名片</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://100rmb.info/wiki/1</link>
-     <title>安吉高山白茶|安吉介绍</title>
-     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,白茶交易,白茶批发,白茶供货</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <title>龙仙山安吉白茶|安吉介绍</title>
+     <description>安吉高山白茶,安吉白茶,高山白茶,白茶,龙仙山,白茶交易,白茶批发,白茶供货</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
