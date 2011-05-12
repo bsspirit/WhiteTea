@@ -115,7 +115,7 @@ input.button {margin: 0;font: bold 1em Arial, Sans-serif;background: #FFF url(gr
 
 .products ul{list-style:none;margin: 10px 10px 15px;padding: 0;}
 .products ul li{display: inline;float:left;}
-.products .item{width:200px;margin:5px;text-align:center;height:240px;}
+.products .item{width:200px;margin:5px;text-align:center;height:260px;}
 .products .item a:hover{color:black;}
 
 /* footer */
